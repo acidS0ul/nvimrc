@@ -1,6 +1,5 @@
-require('plugins')
-require('set')
-require('remap')
-require('telescope')
-require('treesitter')
-require('lsp')
+require("config.lazy")
+require("config.remap")
+require("config.set")
+
+vim.cmd [[colorscheme gruvbox]]

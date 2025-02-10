@@ -13,3 +13,4 @@ vim.g.netrw_liststyle = 3
 vim.g.netrt_browse_split=3
 
 vim.o.completeopt = "menuone,noselect"
+
