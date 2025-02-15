@@ -13,4 +13,12 @@ vim.g.netrw_liststyle = 3
 vim.g.netrt_browse_split=3
 
 vim.o.completeopt = "menuone,noselect"
+vim.opt.colorcolumn = "79"
+
+-- spell
+vim.opt.spelllang = { "ru", "en_us" }
+vim.opt.spell=true
+
+-- disable background (if it need) 
+vim.api.nvim_set_hl(0, 'ColorColumn', { bg = 'none' })
 
