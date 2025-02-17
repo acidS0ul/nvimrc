@@ -21,4 +21,3 @@ vim.opt.spell=true
 
 -- disable background (if it need) 
 vim.api.nvim_set_hl(0, 'ColorColumn', { bg = 'none' })
-
