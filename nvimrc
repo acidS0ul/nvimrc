@@ -1,0 +1,1 @@
+/home/acidsoul/projects/dotfiles../nvimrc

@@ -16,3 +16,15 @@ vim.api.nvim_set_keymap('n', '<Leader>yy', '"+yy<CR>', { noremap = true, silent 
 vim.api.nvim_set_keymap('n', '<Leader>yw', '"+yw<CR>', { noremap = true, silent = true })
 vim.api.nvim_set_keymap('n', '<Leader>yiw', '"+yiw<CR>', { noremap = true, silent = true })
 vim.api.nvim_set_keymap('v', '<Leader>y', '"+y<CR>', { noremap = true, silent = true })
+
+vim.keymap.set("n", "<leader>tf", "<cmd>Telekasten find_notes<CR>")
+vim.keymap.set("n", "<leader>tg", "<cmd>Telekasten search_notes<CR>")
+vim.keymap.set("n", "<leader>td", "<cmd>Telekasten goto_today<CR>")
+vim.keymap.set("n", "<leader>tz", "<cmd>Telekasten follow_link<CR>")
+vim.keymap.set("n", "<leader>tn", "<cmd>Telekasten new_note<CR>")
+vim.keymap.set("n", "<leader>tb", "<cmd>Telekasten show_backlinks<CR>")
+vim.keymap.set("n", "<leader>tI", "<cmd>Telekasten insert_img_link<CR>")
+
+-- Call insert link automatically when we start typing a link
+vim.keymap.set("i", "[[", "<cmd>Telekasten insert_link<CR>")
+
