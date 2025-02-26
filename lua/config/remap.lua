@@ -24,6 +24,7 @@ vim.keymap.set("n", "<leader>tg", "<cmd>Telekasten search_notes<CR>")
 vim.keymap.set("n", "<leader>td", "<cmd>Telekasten goto_today<CR>")
 vim.keymap.set("n", "<leader>tz", "<cmd>Telekasten follow_link<CR>")
 vim.keymap.set("n", "<leader>tn", "<cmd>Telekasten new_note<CR>")
+vim.keymap.set("n", "<leader>tt", "<cmd>Telekasten new_templated_note<CR>")
 vim.keymap.set("n", "<leader>tb", "<cmd>Telekasten show_backlinks<CR>")
 vim.keymap.set("n", "<leader>tI", "<cmd>Telekasten insert_img_link<CR>")
 -- Call insert link automatically when we start typing a link
@@ -32,4 +33,5 @@ vim.keymap.set("i", "[[", "<cmd>Telekasten insert_link<CR>")
 vim.api.nvim_set_keymap('n', '<Leader>g]', ':Gitsigns next_hunk<CR>', { noremap = true, silent = true })
 vim.api.nvim_set_keymap('n', '<Leader>g[', ':Gitsigns prev_hunk<CR>', { noremap = true, silent = true })
 vim.api.nvim_set_keymap('n', '<Leader>gp', ':Gitsigns preview_hunk_inline<CR>', { noremap = true, silent = true })
-
+-- Fugitive
+vim.api.nvim_set_keymap('n', '<Leader>gc', ':Git commit<CR>', { noremap = true, silent = true })
