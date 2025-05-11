@@ -30,9 +30,9 @@ return  {
         subdirs_in_links = true,
 
         templates           = vim.fn.expand("~/Notes/meta/templates"),
-        template_new_note   = vim.fn.expand("~/Notes/meta/templates/basic.md"),
-        template_new_daily  = vim.fn.expand("~/Notes/meta/templates/basic.md"),
-        template_new_weekly = vim.fn.expand("~/Notes/meta/templates/basic.md"),
+        template_new_note   = vim.fn.expand("~/Notes/meta/templates/minimal.md"),
+        template_new_daily  = vim.fn.expand("~/Notes/meta/templates/minimal.md"),
+        template_new_weekly = vim.fn.expand("~/Notes/meta/templates/minimal.md"),
         
         tag_notation        = "#tag",
     },
