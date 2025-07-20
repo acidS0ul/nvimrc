@@ -29,10 +29,10 @@ return  {
         image_link_style = "markdown",
         subdirs_in_links = true,
 
-        templates           = vim.fn.expand("~/Notes/meta/templates"),
-        template_new_note   = vim.fn.expand("~/Notes/meta/templates/minimal.md"),
-        template_new_daily  = vim.fn.expand("~/Notes/meta/templates/minimal.md"),
-        template_new_weekly = vim.fn.expand("~/Notes/meta/templates/minimal.md"),
+        templates           = vim.fn.expand("~/.config/nvim/lua/plugins"),
+        template_new_note   = vim.fn.expand("~/.config/nvim/lua/plugins/minimal.md"),
+        template_new_daily  = vim.fn.expand("~/.config/nvim/lua/plugins/minimal.md"),
+        template_new_weekly = vim.fn.expand("~/.config/nvim/lua/plugins/minimal.md"),
         
         tag_notation        = "#tag",
     },
