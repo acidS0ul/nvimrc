@@ -35,3 +35,10 @@ vim.api.nvim_set_keymap('n', '<Leader>g[', ':Gitsigns prev_hunk<CR>', { noremap 
 vim.api.nvim_set_keymap('n', '<Leader>gp', ':Gitsigns preview_hunk_inline<CR>', { noremap = true, silent = true })
 -- Fugitive
 vim.api.nvim_set_keymap('n', '<Leader>gc', ':Git commit<CR>', { noremap = true, silent = true })
+
+vim.api.nvim_set_keymap('n', '<leader>ff', "<cmd>Telescope find_files theme=dropdown<CR>", { noremap = true, silent = true})
+vim.api.nvim_set_keymap('n', '<leader>ft', "<cmd>Telescope tags theme=dropdown<CR>", { noremap = true, silent = true})
+vim.api.nvim_set_keymap('n', '<leader>fo', "<cmd>Telescope oldfiles theme=dropdown<CR>", { noremap = true, silent = true})
+vim.api.nvim_set_keymap('n', '<leader>fg', "<cmd>Telescope live_grep theme=dropdown<CR>", { noremap = true, silent = true})
+vim.api.nvim_set_keymap('n', '<leader>fb', "<cmd>Telescope buffers theme=dropdown<CR>", { noremap = true, silent = true})
+vim.api.nvim_set_keymap('n', '<leader>fh', "<cmd>Telescope help_tags theme=dropdown<CR>", { noremap = true, silent = true}) 
